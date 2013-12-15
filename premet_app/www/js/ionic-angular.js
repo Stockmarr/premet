@@ -1670,11 +1670,10 @@ angular.module('ionic.ui.sideMenu', ['ionic.service.gesture'])
         });
 
         // Listen for taps on the content to close the menu
-        /*
         ionic.on('tap', function(e) {
           sideMenuCtrl.close();
         }, $element[0]);
-        */
+        
 
         var dragFn = function(e) {
           if($scope.dragContent) {
@@ -1694,8 +1693,8 @@ angular.module('ionic.ui.sideMenu', ['ionic.service.gesture'])
         };
 
         //var dragGesture = Gesture.on('drag', dragFn, $element);
-        var dragRightGesture = Gesture.on('dragright', dragFn, $element);
-        var dragLeftGesture = Gesture.on('dragleft', dragFn, $element);
+        // var dragRightGesture = Gesture.on('dragright', dragFn, $element);
+        // var dragLeftGesture = Gesture.on('dragleft', dragFn, $element);
         var dragUpGesture = Gesture.on('dragup', dragVertFn, $element);
         var dragDownGesture = Gesture.on('dragdown', dragVertFn, $element);
 

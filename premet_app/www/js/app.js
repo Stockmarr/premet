@@ -3,9 +3,7 @@
 // the 2nd parameter is an array or 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-// angular.module('premet', ['ionic']);
-
-angular.module('premet', ['ionic', 'ngRoute', 'ngAnimate', 'premet.controllers'])
+angular.module('premet', ['ionic', 'ngAnimate', 'premet.controllers'])
 
 // .config(function ($compileProvider){
 //   // Needed for routing to work

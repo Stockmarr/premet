@@ -30,9 +30,9 @@
 
   <!-- 'starter' is the name of this angular module (js/app.js)-->
   <body ng-app="premet" ng-controller="AppCtrl">
-    <side-menus>
+    <side-menus-premet>
       <!-- Center content -->
-      <pane side-menu-content>
+      <pane side-menu-content-premet>
         <header class="bar bar-header bar-dark">
           <button class="button ion-navicon-round" ng-click="toggleLeftMenu()"></button>
           <h1 class="title">Premet</h1>
@@ -50,6 +50,8 @@
             
             <div class="item item-divider">
                 SuperDuperMis2000, 26
+                <div id="premet-approved" class="ion-checkmark"></div>
+                <div id="premet-denied" class="ion-close"></div>
             </div>
             
             <div class="item item-image">
@@ -74,7 +76,7 @@
       </pane>
 
       <!-- Left menu -->
-      <side-menu side="left">
+      <side-menu-premet side="left">
         <header class="bar bar-header bar-dark">
           <h1 class="title">BurgerMenu</h1>
         </header>
@@ -94,10 +96,10 @@
               </li>
             </ul>
         </content>
-      </side-menu>
+      </side-menu-premet>
       
       <!-- Right menu -->
-      <side-menu side="right">
+      <side-menu-premet side="right">
         <header class="bar bar-header bar-dark">
           <h1 class="title">Matches</h1>
         </header>
@@ -117,7 +119,7 @@
               </li>
             </ul>
         </content>
-      </side-menu>
-    </side-menus>
+      </side-menu-premet>
+    </side-menus-premet>
   </body>
 </html>

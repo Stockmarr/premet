@@ -1693,8 +1693,8 @@ angular.module('ionic.ui.sideMenu', ['ionic.service.gesture'])
         };
 
         //var dragGesture = Gesture.on('drag', dragFn, $element);
-        // var dragRightGesture = Gesture.on('dragright', dragFn, $element);
-        // var dragLeftGesture = Gesture.on('dragleft', dragFn, $element);
+        var dragRightGesture = Gesture.on('dragright', dragFn, $element);
+        var dragLeftGesture = Gesture.on('dragleft', dragFn, $element);
         var dragUpGesture = Gesture.on('dragup', dragVertFn, $element);
         var dragDownGesture = Gesture.on('dragdown', dragVertFn, $element);
 

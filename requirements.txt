@@ -1,0 +1,4 @@
+# npm: http://nodejs.org/download/
+# sudo npm install -g ionic
+# cordova create hello com.ionic.todo Todo
+flask

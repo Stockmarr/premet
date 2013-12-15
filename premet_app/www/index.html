@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ionic Seed</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- ionic css -->
+    <link href="css/ionic.css" rel="stylesheet">
+
+    <!-- your app's css -->
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs scripts -->
+    <script src="js/ionic.js"></script>
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular/angular-animate.js"></script>
+    <script src="js/angular/angular-route.js"></script>
+    <script src="js/angular/angular-touch.js"></script>
+    <script src="js/angular/angular-sanitize.js"></script>
+    <script src="js/ionic-angular.js"></script>
+
+    <!-- cordova script -->
+    <!-- <script src="cordova.js"></script> -->
+
+    <!-- your app's script -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+
+  <!-- 'starter' is the name of this angular module (js/app.js)-->
+  <body ng-app="premet" ng-controller="AppCtrl">
+    <side-menus>
+      <!-- Center content -->
+      <pane side-menu-content>
+        <header class="bar bar-header bar-dark">
+          <button class="button ion-navicon-round" ng-click="toggleLeftMenu()"></button>
+          <h1 class="title">Premet</h1>
+          <button class="button" ng-click="toggleRightMenu()">Matches</button>
+        </header>
+        <content has-header="true">
+          <div class="list card">
+
+            <!-- <div class="item item-avatar">
+              <img src="avatar.jpg">
+              <h2>Pretty Hate Machine</h2>
+              <p>Nine Inch Nails</p>
+            </div> -->
+
+            <div class="item item-image">
+              <img src="usercontent/01.jpg">
+            </div>
+            
+            <div class="item item-image">
+              <img src="usercontent/02.jpg">
+            </div>
+            
+            <div class="item item-image">
+              <img src="usercontent/03.jpg">
+            </div>
+
+            <!-- <a class="item item-icon-left assertive" href="#">
+              <i class="icon ion-music-note"></i>
+              Start listening
+            </a> -->
+
+          </div>
+        </content>
+      </pane>
+
+      <!-- Left menu -->
+      <side-menu side="left">
+        <header class="bar bar-header bar-dark">
+          <h1 class="title">BurgerMenu</h1>
+        </header>
+        <content has-header="true">
+          <ul class="list">
+              <li class="item">
+                hejsemis
+              </li>
+              <li class="item">
+                hejsemis
+              </li>
+              <li class="item">
+                hejsemis
+              </li>
+              <li class="item">
+                hejsemis
+              </li>
+            </ul>
+        </content>
+      </side-menu>
+      
+      <!-- Right menu -->
+      <side-menu side="right">
+        <header class="bar bar-header bar-dark">
+          <h1 class="title">Matches</h1>
+        </header>
+        <content has-header="true">
+          <ul class="list">
+              <li class="item">
+                hejsemis
+              </li>
+              <li class="item">
+                svejsemis
+              </li>
+              <li class="item">
+                gloeggdykkermis
+              </li>
+              <li class="item">
+                gloeggdykkermis
+              </li>
+            </ul>
+        </content>
+      </side-menu>
+    </side-menus>
+  </body>
+</html>

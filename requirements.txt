@@ -1,4 +1,6 @@
 # npm: http://nodejs.org/download/
 # sudo npm install -g ionic
 # cordova create hello com.ionic.todo Todo
+# sudo gem install sass
+# sudo gem install rb-fsevent
 flask

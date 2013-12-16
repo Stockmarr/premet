@@ -1670,10 +1670,11 @@ angular.module('ionic.ui.sideMenu', ['ionic.service.gesture'])
         });
 
         // Listen for taps on the content to close the menu
+        /*
         ionic.on('tap', function(e) {
           sideMenuCtrl.close();
         }, $element[0]);
-        
+        */
 
         var dragFn = function(e) {
           if($scope.dragContent) {

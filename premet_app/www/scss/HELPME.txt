@@ -1,0 +1,12 @@
+# Sass Installation.
+# Run these in any terminal:
+sudo gem install sass
+sudo gem install rb-fsevent
+
+# Get Sass up and running:
+# In a terminal:
+cd to www/
+then execute this line:
+sass --watch scss/app.scss:css/app.css
+
+Any changes to scss/app.scss will be compiled to app.css.

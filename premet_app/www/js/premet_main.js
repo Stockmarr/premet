@@ -3,14 +3,7 @@
 // the 2nd parameter is an array or 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('premet', ['ionic', 'ngAnimate', 'premet.controllers'])
-
-
-
-
-
-
-
+angular.module('premet', ['ionic', 'ngTouch', 'ngAnimate', 'premet.controllers'])
 
 /**
  * @description
@@ -213,11 +206,11 @@ angular.module('premet', ['ionic', 'ngAnimate', 'premet.controllers'])
 
 
 
-// .config(function ($compileProvider){
-//   // Needed for routing to work
-//   $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
-// })
-// 
+.config(function ($compileProvider){
+  // Needed for routing to work
+  $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+})
+
 // .config(function($routeProvider, $locationProvider) {
 // 
 //   // Set up the initial routes that our app will respond to.

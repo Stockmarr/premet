@@ -30,68 +30,44 @@
     <side-menus-premet>
       <!-- Center content -->
       <pane side-menu-content-premet>
-        <header class="bar bar-header bar-dark">
-          <button class="button ion-navicon-round" ng-click="toggleLeftMenu()"></button>
-          <h1 class="title">Premet</h1>
-          <button class="button" ng-click="toggleRightMenu()">Matches</button>
+        <header class="bar bar-header bar-stable">
+          <button class="button ion-navicon-round button-clear" ng-click="toggleLeftMenu()"></button>
+          <h1 class="title">PREMET</h1>
+          <button class="button ion-chatbox button-clear" ng-click="toggleRightMenu()"></button>
         </header>
-        <content has-header="true">
+        <content has-header="true" class="background-profile">
           <div class="list">
-            <a class="item" href="#">
-              EventOfTheCentury
+            <a class="item event" href="#">
+              <h2>Mads Langer solo 2. Ekstrakoncert @ VEGA...</h2>
+              <p>VEGA in København<br>Friday, 27/12 2013 at 20:00</p>
             </a>
-          </div>
-          
-          
-          <div class="list card">
-            
-            <div class="item item-divider">
-                SuperDuperMis2000, 26
-                <div id="premet-approved" class="ion-checkmark"></div>
-                <div id="premet-denied" class="ion-close"></div>
-            </div>
-            
-            <div class="item item-image">
+            <div class="item profile">
+              <h2>SuperDuperMis2000, 26</h2>
+              <div id="premet-approved" class="ion-checkmark"></div>
+              <div id="premet-denied" class="ion-close"></div>
+            </div><!-- .item .profile -->
+            <div class="item profile item-image">
               <img src="usercontent/01.jpg">
-            </div>
-            
-            <div class="item item-image">
+            </div>              
+            <div class="item profile item-image">
               <img src="usercontent/02.jpg">
             </div>
-            
-            <div class="item item-image">
+            <div class="item profile item-image">
               <img src="usercontent/03.jpg">
             </div>
-
-            <!-- <a class="item item-icon-left assertive" href="#">
-              <i class="icon ion-music-note"></i>
-              Start listening
-            </a> -->
-
-          </div>
+          </div><!-- .list -->
         </content>
       </pane>
 
       <!-- Left menu -->
       <side-menu-premet side="left">
-        <header class="bar bar-header bar-dark">
-          <h1 class="title">BurgerMenu</h1>
-        </header>
-        <content has-header="true">
-          <ul class="list">
-              <li class="item">
-                hejsemis
-              </li>
-              <li class="item">
-                hejsemis
-              </li>
-              <li class="item">
-                hejsemis
-              </li>
-              <li class="item">
-                hejsemis
-              </li>
-            </ul>
+        <content has-header="false">
+          <div class="top-menu">
+            <h4><a href="#" class="nav-get-premet">Get Premet</a></h4>
+            <h4><a href="#" class="nav-profile">My profile</a></h4>
+            <h4><a href="#" class="nav-invite">Invite friends</a></h4>
+            <h4><a href="#" class="nav-settings">Settings</a></h4>
+          </div><!-- .top-menu -->
         </content>
       </side-menu-premet>
       

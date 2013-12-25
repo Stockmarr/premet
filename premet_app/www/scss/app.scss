@@ -1,5 +1,38 @@
 @import "ionic/ionic";
 
-// your slick styles can go here...
-// when Sass processes, both Ionic's Sass and your Sass will combine 
-// into one file and saved in your app's directory as css/app.css
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400";
+
+// General layout
+.scroll-content.background-profile { background-color: $positive; }
+.item-image { padding: 0 15px 15px; }
+
+// Menu
+.menu { background: #1e1e1e;
+	.top-menu { padding-top: 30px; }
+	a { font-style: italic; text-decoration: none; display: block; padding: 20px 0 20px 50px; }
+	.nav-get-premet { color: $stable; }
+	.nav-profile { color: $positive; }
+	.nav-invite { color: $energized-signature; }
+	.nav-settings { color: #cecece; }
+}
+
+// Custom typography adjustments
+h1, h2 { font-style: italic; }
+p { font-weight: 600; }
+
+// Primary brand color colorizsensationing
+.bar.bar-stable h1.title { color: $stable-signature; }
+.bar .button.button-clear { padding-left: 10px; padding-right: 10px; }
+
+// Event colorizsensationing
+.list .item.event { background-color: $energized; }
+a.item.event:after { color: $energized-subtle; }
+.event h2 { color: $energized-signature; }
+.event p { color: $energized-subtle; }
+
+
+// Profile colorizsensationing
+.list .item.profile { background-color: $positive; }
+a.profile.event:after { color: $positive-subtle; }
+.profile h2 { color: $positive-signature; }
+.profile p { color: $positive-subtle; }

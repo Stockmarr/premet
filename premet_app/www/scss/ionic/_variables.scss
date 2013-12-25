@@ -3,11 +3,17 @@
 // -------------------------------
 
 $light:                 #fff !default;
-$stable:                #f8f8f8 !default;
-$positive:              #4a87ee !default;
+$stable:                #f2a9ba !default; //brand pink
+  $stable-signature:	#3232ae;
+  $stable-subtle:		#c77b8d;
+$positive:              #c9e4cf !default;
+  $positive-signature:  #ee4f80;
+  $positive-subtle: 	#8fae96;
 $calm:                  #43cee6 !default;
 $balanced:              #66cc33 !default;
-$energized:             #f0b840 !default;
+$energized:             #f6f3e1 !default; //event yellow
+  $energized-signature:	#34b9e5;
+  $energized-subtle:	#c0bba0;
 $assertive:             #ef4e3a !default;
 $royal:                 #8a6de9 !default;
 $dark:                  #444 !default;
@@ -17,14 +23,14 @@ $dark:                  #444 !default;
 // Base
 // -------------------------------
 
-$font-family-sans-serif:         "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-light-sans-serif:   "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:         "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-light-sans-serif:   "Open Sans", "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:              Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:          Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
 $font-family-base:               $font-family-sans-serif !default;
-$font-size-base:                 14px !default;
-$font-size-large:                18px !default;
+$font-size-base:                 12px !default;
+$font-size-large:                24px !default;
 $font-size-small:                11px !default;
 
 $line-height-base:               1.428571429 !default; // 20/14
@@ -33,7 +39,7 @@ $line-height-large:              1.33 !default;
 $line-height-small:              1.5 !default;
 
 $headings-font-family:           $font-family-base !default;
-$headings-font-weight:           500 !default;
+$headings-font-weight:           700 !default;
 $headings-line-height:           1.1 !default;
 
 $base-background-color:          #fff;
@@ -98,8 +104,8 @@ $button-light-active-bg:              #fafafa;
 $button-light-active-border:          #ccc;
 
 $button-stable-bg:                    $stable;
-$button-stable-text:                  #444;
-$button-stable-border:                #b2b2b2;
+$button-stable-text:                  $stable-subtle;
+$button-stable-border:                $stable-subtle;
 $button-stable-active-bg:             #e5e5e5;
 $button-stable-active-border:         #a2a2a2;
 

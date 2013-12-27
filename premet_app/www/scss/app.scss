@@ -66,6 +66,7 @@ a.profile.event:after { color: $positive-subtle; }
 .profile p { color: $positive-subtle; }
 
 // Dark colorization
+.bar.bar-dark { background: #000; }
 .bar.bar-dark h1.title { color: $dark-signature; }
 .bar.bar-dark .button { color: #555; }
 .dark { background: $dark; }

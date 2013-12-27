@@ -7,13 +7,21 @@
 .item-image { padding: 0 15px 15px; }
 
 // Menu
-.menu { background: #1e1e1e;
+.menu { background: $dark;
 	.top-menu { padding-top: 30px; }
 	a { font-style: italic; text-decoration: none; display: block; padding: 20px 0 20px 50px; }
 	.nav-get-premet { color: $stable; }
 	.nav-profile { color: $positive; }
 	.nav-invite { color: $energized-signature; }
-	.nav-settings { color: #cecece; }
+	.nav-settings { color: $dark-subtle; }
+}
+
+// List of chats
+.chats { padding-top: 30px;
+	a.item { background: $dark; border: none; font-style: normal; padding: 25px 25px;
+    &:after { content: none; }
+		img { float: left; height: 40px; width: 40px; border-radius: 20px; margin-right: 15px; }
+  }
 }
 
 // Custom typography adjustments
@@ -30,9 +38,13 @@ a.item.event:after { color: $energized-subtle; }
 .event h2 { color: $energized-signature; }
 .event p { color: $energized-subtle; }
 
-
 // Profile colorizsensationing
 .list .item.profile { background-color: $positive; }
 a.profile.event:after { color: $positive-subtle; }
 .profile h2 { color: $positive-signature; }
 .profile p { color: $positive-subtle; }
+
+// Dark colorization
+.dark { background: $dark; }
+.dark h2 { color: $dark-signature; }
+.dark p { color: $dark-subtle; }
